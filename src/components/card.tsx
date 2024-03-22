@@ -33,6 +33,7 @@ const Card: React.FC<CardProps> = ({ task, index, handleEditTask, handleDeleteTa
           onClick={() => handleDeleteTask(index)}
           className="text-red-500 hover:text-red-300 focus:outline-none"
         >
+          
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
